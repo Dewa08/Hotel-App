@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imagrView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff"></TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Beach Is But A Short Walk Away!!!!!!"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati excepturi voluptates vitae quam veniam possimus laboriosam, fugiat alias voluptate. Rem id necessitatibus itaque ullam accusamus modi nesciunt deserunt iste veniam corporis eveniet hic porro, laboriosam quidem. Adipisci doloribus officia maxime! Iste voluptatem quae eos, soluta aut saepe nemo officia, adipisci id neque veniam. Repudiandae omnis iure esse sequi et quaerat, dolores fuga aut nisi sunt molestias libero reiciendis nam totam soluta modi incidunt nihil veritatis laudantium rem saepe dolor corporis beatae. Et optio animi commodi repudiandae dolor in quo minus neque deleniti necessitatibus tenetur maiores ad natus nam culpa veniam rerum aut placeat quis architecto, aperiam atque, incidunt laboriosam debitis. Consequatur, eius quis doloribus laudantium molestiae quibusdam esse harum commodi neque quasi ab ex laborum provident unde tenetur cupiditate dignissimos? Labore odit maxime officiis delectus sunt, nesciunt ducimus totam harum est illo repudiandae commodi doloremque. Exercitationem quos fugit rerum dignissimos excepturi molestias quas laudantium, ipsa repudiandae laborum officia iure possimus, optio explicabo atque. Quia, tempore alias nesciunt cumque ab maiores ipsa dolore sapiente obcaecati aliquid! Nesciunt quidem unde, ipsam odio ducimus aspernatur ad et! Minus at officiis quisquam, blanditiis quas ratione eveniet doloribus esse, nemo debitis optio, accusamus fugiat harum."></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0ff"
+        android:textColor="@color/black"
+        android:text="Book Now!!!"></Button>
+
+</LinearLayout>
